@@ -9,9 +9,9 @@ https://github.com/user-attachments/assets/a9b6130f-4b24-447a-81d1-e0063a38e49c
 
 Working Principle:
   1. An IMU reads the orientation (pitch and roll) of the controller.
-  2. The orientation is used to determined the control signals of the motors of the UGV by the controller.
-  3. The control signals are encoded and transmitted to the UGV via radio signals
-  4. The receiver circuit on the UGV decodes the control signals and passes them to the Motor Driver Circuit to generate the desired movement
+  2. The orientation is used to determine the control signals for the motors of the UGV by the controller to achieve the desired movement.
+  3. The control signals are encoded and transmitted to the UGV via radio signals.
+  4. The receiver circuit on the UGV decodes the control signals and passes them to the Motor Driver Circuit to generate the desired movement.
 
 Tools and Equipment Used: 
   1. Circuit Design: Eagle EDA
