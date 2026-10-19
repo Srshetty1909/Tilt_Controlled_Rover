@@ -1,6 +1,8 @@
 Aim: To build a rover whose direction of motion is determined by the pitch and roll of its remote controller.
+
 Operation video: 
 https://github.com/user-attachments/assets/c68545b1-a79a-46e6-9be0-68d39afc5282
+
 Working Principle:
   1. An IMU reads the orientation (pitch and roll) of the controller.
   2. The orientation is used to determined the control signals of the motors of the UGV by the controller.
@@ -16,7 +18,7 @@ Tools and Equipment Used:
   6. RF transmitter-receiver: RF434 433MHz Wireless Transmitter Receiver Module
   7. Motor-Driver Module: L298N Motor Driver Module
   8. Battery: 9V Battery (Transmitter Circuit), 3s Li-Po Battery (UGV)
-<img width="1147" height="342" alt="image" src="https://github.com/user-attachments/assets/f4aa658c-1027-44cb-b7d6-92d01c7635d5" />
+  9. Motors for the Rover: 12V Geared DC motors (200 RPM)
 
 
 
